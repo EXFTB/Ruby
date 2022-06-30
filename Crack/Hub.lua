@@ -65,7 +65,7 @@ local DaHoodAndShit = {
     
     Notify("MM2", " Loaded! ", "" , 3)
     
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/Murder%20Mystery%202.lua"))()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/EXFTB/MM2/main/Loader.lua"))()
     end
     
     if  DaHoodAndShit[game.PlaceId] then
